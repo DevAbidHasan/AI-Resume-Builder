@@ -158,7 +158,7 @@ const Hero = () => {
         {/* Headline + CTA */}
         <h1 className="text-5xl md:text-6xl font-semibold max-w-5xl text-center mt-4 md:leading-[70px]">
           Get Your Dream Job With{" "}
-          <span className=" bg-gradient-to-r from-blue-200 via-blue-700 to-pink-700 bg-clip-text text-transparent text-nowrap">
+          <span className="bg-gradient-to-r from-blue-200 via-blue-700 to-pink-700 bg-clip-text text-transparent text-nowrap">
             AI Powered{" "}
           </span>{" "}
           Resume.

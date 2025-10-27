@@ -11,7 +11,7 @@ const Footer = () => {
                 }
             `}</style>
             
-            <footer className="flex mt-40 flex-wrap justify-center lg:justify-between overflow-hidden gap-10 md:gap-20 py-16 px-6 md:px-16 lg:px-24 xl:px-32 text-[13px] text-gray-700 bg-gradient-to-r from-white via-blue-500/30 to-white">
+            <footer className="flex border-2 md:border-5 mx-5 md:mx-12 shadow-2xl shadow-gray-400 border-blue-600 mb-10 rounded-4xl mt-40 flex-wrap justify-center lg:justify-between overflow-hidden gap-10 md:gap-20 py-16 px-6 md:px-16 lg:px-24 xl:px-32 text-[13px] text-gray-700 bg-gradient-to-r from-white via-blue-500/30 to-white">
                 <div className="flex flex-wrap items-start gap-10 md:gap-[60px] xl:gap-[140px]">
                     <a href="">
                         <img className='' src={logo} alt="" />
@@ -76,7 +76,7 @@ const Footer = () => {
                             </svg>
                         </a>
                     </div>
-                    <p className="mt-3 text-center">© 2025 <a href="https://prebuiltui.com">PrebuiltUI</a></p>
+                    <p className="mt-3 text-center">© 2025 AI Resume Builder</p>
                 </div>
             </footer>
         </div>
